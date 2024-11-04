@@ -1,0 +1,19 @@
+id: particle/blueprint-tracker-relay
+category: tutorial
+icon: particle.png
+gitrepo: https://github.com/particle-iot/blueprint-tracker-relay
+name: blueprint-tracker-relay
+shortDescription: blueprint-tracker-relay
+version: 1.0.0
+models: []
+language:
+  - C++
+cloudServices: []
+integrations:
+  - qcom-aware
+hardwareDependencies:
+  - name: Tracker One
+    link: https://www.particle.io/tracker-one/
+  - name: Particle T-SoM Module
+    link: https://www.particle.io/tracker-som/
+description: ""
