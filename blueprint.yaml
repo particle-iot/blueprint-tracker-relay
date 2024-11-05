@@ -2,8 +2,8 @@ id: particle/blueprint-tracker-relay
 category: tutorial
 icon: particle.png
 gitrepo: https://github.com/particle-iot/blueprint-tracker-relay
-name: blueprint-tracker-relay
-shortDescription: blueprint-tracker-relay
+name: "Tracker relay integration"
+shortDescription: Adding relays to the Tracker One using the M8 connector
 version: 1.0.0
 models: []
 language:
@@ -17,4 +17,10 @@ hardwareDependencies:
   - name: Particle T-SoM Module
     link: https://www.particle.io/tracker-som/
     tags: [ "T-SoM" ]
-description: ""
+description: |
+  This application note demonstrates adding relays to the Tracker One using the M8 connector. It includes two designs:
+
+  - Quad Relay: Utilizes 4x 10A SPDT relays for non-latching applications.
+  - Dual Latching Relay: Utilizes 2x 16A SPDT latching relays for applications where power-saving is critical.
+
+  The example code also includes Particle functions for controlling relay states, supporting integration with various Particle tools (CLI, console, mobile app).
