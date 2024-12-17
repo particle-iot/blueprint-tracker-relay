@@ -1,9 +1,8 @@
-id: particle/blueprint-tracker-relay
 slug: particle-blueprint-tracker-relay
 type: tutorial
 category: "Tracker projects"
-expertiseLevel: ""
-tags: ["tracker", "relay"]
+expertiseLevel: "beginner"
+tags: ["tracker", "relay", "industrial"]
 icon: assets/particle-logo.svg
 gitrepo: https://github.com/particle-iot/blueprint-tracker-relay
 name: "Tracker relay integration"
