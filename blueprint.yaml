@@ -1,7 +1,7 @@
 slug: particle-blueprint-tracker-relay
 type: Tutorial
 category: "Tracker projects"
-expertiseLevel: "Beginner"
+expertiseLevel: "Intermediate"
 tags: ["Tracker", "Relay", "Industrial"]
 icon: assets/tracker-relay-integration.svg
 gitrepo: https://github.com/particle-iot/blueprint-tracker-relay
@@ -19,6 +19,8 @@ supportedDevices:
     link: https://www.particle.io/tracker-som/
 hardwareDependencies:
   - name: Supported device
+  - name: M8 cable
+  - name: Board with relays
 introduction: |
   This application note shows how you can use relays with the Tracker One M8 connector. It includes two designs:
 
