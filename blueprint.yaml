@@ -6,7 +6,7 @@ tags: ["Tracker", "Relay", "Industrial"]
 icon: assets/tracker-relay-integration.svg
 gitrepo: https://github.com/particle-iot/blueprint-tracker-relay
 name: "Tracker relay integration"
-shortDescription: Adding relays to the Tracker One using the M8 connector
+shortDescription: "Adding relays to the Tracker One using the M8 connector."
 version: 1.0.0
 models: []
 language: ["C++"]
